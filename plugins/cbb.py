@@ -69,7 +69,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]
             ),
         )
-    elif query.data == "sticker":
+    elif query.data == "stick":
         await query.message.edit(
             "**Select a Type**",
             reply_markup=InlineKeyboardMarkup(
@@ -111,7 +111,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "🚸Support Channel", url="https://t.me/mizolibrary"
                     )
                 ],
             ]
@@ -131,7 +131,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "🚸Support Group", url="https://t.me/rsrtginfo"
                     )
                 ],
             ]
@@ -148,7 +148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "🔔YouTube Channel", url="https://youtube.com/c/ArtInMirror"
                     )
                 ],
             ]
@@ -253,7 +253,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     if query.data not in [
         "removebg",
-        "sticker",
+        "stick",
         "rotate",
         "start_data",
         "help_data",
