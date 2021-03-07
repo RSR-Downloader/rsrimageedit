@@ -69,7 +69,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]
             ),
         )
-    elif query.data == "stick":
+    elif query.data == "sticker":
         await query.message.edit(
             "**Select a Type**",
             reply_markup=InlineKeyboardMarkup(
@@ -253,7 +253,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     if query.data not in [
         "removebg",
-        "stick",
+        "sticker",
         "rotate",
         "start_data",
         "help_data",
