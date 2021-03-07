@@ -18,7 +18,7 @@ async def start(client: Client, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "🚸Suppoet Channel",
+                            "🚸Support Channel",
                             url="https://t.me/mizolibrary",
                         )
                     ],
@@ -44,8 +44,8 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "🚸Support Channel",
-                            url="https://t.me/mizolibrary",
+                            "🚸Support Group",
+                            url="https://t.me/rsrtginfo",
                         )
                     ],
                 ]
@@ -70,8 +70,8 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "🚸Support Channel",
-                            url="https://t.me/mizolibrary",
+                            "🔔YouTube Channel",
+                            url="https://youtube.com/c/ArtInMirror",
                         )
                     ],
                 ]
