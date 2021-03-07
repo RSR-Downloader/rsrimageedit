@@ -17,7 +17,7 @@ For more click help....</b>"""
 © @mizolibrary"""
     ABOUT_MSG = """⭕️<b>My Name : Pro Edit</b>
 
-⭕️<b>Language :</b> <code>Python3</code>
+⭕️<b>Language :</b> <code>English</code>
 
 ⭕️<b>Support Channel :</b> <a href='https://t.me/mizolibrary'>Mizo Library</a>
 
